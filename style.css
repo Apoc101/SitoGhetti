@@ -1,0 +1,49 @@
+body{
+    overflow-x: hidden;
+    background-color: rgb(14, 14, 14);
+}
+
+.ghetti{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 23%;
+    animation-fill-mode: forwards;
+    animation-name: loadGhetti;
+    animation-duration: 2.5s;
+}
+
+.text{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    animation-fill-mode: forwards;
+    animation-name: loadcont ;
+    animation-duration: 2.5s;
+    text-align: center;
+    margin-top: 5%;
+    border-radius: 49px; 
+}
+
+.ghettiText{
+    color: azure;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10vh;
+    animation-name: loadcont;
+    animation-duration: 2.5s;
+}
+
+
+
+@keyframes loadGhetti {
+    0% { top: 50px;}
+    100% {opacity: 100; top: -50px;}
+}
+
+@keyframes loadcont {
+    0% {opacity: 0%;}
+    60% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
