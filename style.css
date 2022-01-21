@@ -44,7 +44,7 @@ section{
 }
 
 .ghettiText{
-    color: azure;
+    color: whitesmoke;
     font-family: 'Poppins', sans-serif;
     font-size: 10vh;
     animation-name: loadcont;
@@ -82,6 +82,21 @@ section{
 .scroll-down::after{
     top: 30%;
 }
+
+.desc {
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+}
+
+.header{
+    text-decoration: underline;
+    font-size: 5vh;
+}
+
+.para{
+    font-size: 3vh;
+}
+
 
 /* Animations */
 
