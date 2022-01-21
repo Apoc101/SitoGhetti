@@ -11,11 +11,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <img src="ghetti.png" alt="ghetti" class="ghetti">
-    <div class="text">
-        <h class="ghettiText">
-        ghetti
-        </h>
-    </div>
+    <section class="pg1">
+        <img src="ghetti.png" alt="ghetti" class="ghetti">
+        <div class="text">
+            <h class="ghettiText">
+            ghetti
+            </h>
+        </div>
+        <a href="#sec2">
+            <div class="scroll-down"></div>
+        </a>
+    </section>
+    <!-- THIS IS BAD PROGRAMMING; an alternative might be messing around with the height of PG2 or PG1, but the scrollbar gets fucked -->
+    <br><br><br><br><br><br><br><br> 
+    <section class="pg2" id="sec2">
+
+    </section>
+    <script>
+        onload="window.scroll(0, 0)";
+    </script>
 </body>
 </html>
