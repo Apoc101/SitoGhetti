@@ -11,6 +11,14 @@ a:link{
     text-decoration: none;
 }
 
+a:visited{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
 .buttone{
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
