@@ -7,6 +7,47 @@ body{
     background-color: rgb(14, 14, 14);
 }
 
+button{
+    font-family: 'Poppins', sans-serif;
+    width: 250px;
+    height: 100px;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: transparent;
+    text-align: center;
+    justify-content: center;
+    line-height: 68px;
+    animation: loadcont 3s;
+    animation-fill-mode: forwards;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-weight:300;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+}
+
+button:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+}
+
+.left{
+    display: flex;
+    margin-left: 15%;
+}
+
+.right{
+    margin-top: -4%;
+    display: flex;
+    margin-left: 75%;
+    animation: loadcont 3s;
+    animation-fill-mode: forwards;
+}
+
 .top {
     color: black;
     text-transform: uppercase;
