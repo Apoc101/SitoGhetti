@@ -7,7 +7,16 @@ body{
     background-color: rgb(14, 14, 14);
 }
 
+a {
+    color: azure;
+}
+
 a:link{
+    text-decoration: underline;
+}
+
+a:visited{
+    color: azure;
     text-decoration: none;
 }
 
